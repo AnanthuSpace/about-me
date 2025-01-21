@@ -23,6 +23,7 @@ import {
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiNginx } from "react-icons/di";
+import Reveal from "../Animations/Reveal";
 
 const Technologies = () => {
   const techIcons = [
@@ -49,27 +50,29 @@ const Technologies = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden px-8 mx-8">
+    <div className="relative mx-8 items-center justify-center overflow-hidden px-8">
       <h2 className="mb-6 text-center text-3xl font-bold text-black">
         Technologies I Work With
       </h2>
-      <div className="relative overflow-hidden pt-10">
-        <div className="animate-scroll flex z-1">
-          <div className="flex flex-nowrap">
-            {[...techIcons, ...techIcons].map((icon, index) => (
-              <div
-                key={index}
-                className="flex flex-shrink-0 flex-col items-center justify-center gap-4 p-4"
-              >
-                <div className="text-4xl text-black">
-                  {React.createElement(icon.Icon)}{" "}
+      <Reveal>
+        <div className="relative overflow-hidden pt-10">
+          <div className="animate-scroll z-1 flex">
+            <div className="flex flex-nowrap">
+              {[...techIcons, ...techIcons].map((icon, index) => (
+                <div
+                  key={index}
+                  className="flex flex-shrink-0 flex-col items-center justify-center gap-4 p-4"
+                >
+                  <div className="text-6xl text-black">
+                    {React.createElement(icon.Icon)}{" "}
+                  </div>
+                  <p className="mt-2 text-sm text-black">{icon.name}</p>
                 </div>
-                <p className="mt-2 text-sm text-black">{icon.name}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </div>
   );
 };

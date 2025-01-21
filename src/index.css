@@ -60,3 +60,7 @@ width: 100%;
     animation: scroll 30s linear infinite;
   }
 }
+
+html, body {
+  @apply overflow-x-hidden;
+}
