@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-color: background-gradient-main;
+}
+
+.background-gradient-main {
+  background-image:
+    radial-gradient(at 72% 74%, hsla(222, 36%, 14%, 1) 0px, transparent 50%),
+    radial-gradient(at 9% 88%, hsla(222, 36%, 14%, 1) 0px, transparent 50%),
+    radial-gradient(at 24% 24%, hsla(222, 36%, 14%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 24%, hsla(222, 36%, 14%, 1) 0px, transparent 50%);
+} */
+
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-move {
+  animation: moveImage 2s ease-in-out infinite; 
+}
+
+.gradient-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.gradient-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.gradient-hover:hover {
+  color: rgb(43, 107, 226);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #2563EB, #7C3AED);
+}
+
+.odd\:w-full > li:nth-child(3n+1),
+.even\:w-full > li:nth-child(3n+2),
+.even\:w-full > li:nth-child(3n+3) {
+ width: 100%;
+}
+
+.even\:w-full > li:nth-child(2n) {
+width: 100%;
+}
+
+@layer components {
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+}
