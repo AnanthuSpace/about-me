@@ -2,7 +2,7 @@
 
 Welcome to the repository for my **personal portfolio website**, a platform to showcase my skills, projects, and experiences as a Full Stack Developer specializing in the MERN stack. This portfolio reflects my technical expertise and creative approach to web development.
 
-## 🌟 Features
+## Features
 
 - **Interactive User Interface**: A modern, responsive design built with **React** and styled with **TailwindCSS**.
 - **Project Showcase**: Highlights of my key projects with source code links.
@@ -10,14 +10,14 @@ Welcome to the repository for my **personal portfolio website**, a platform to s
 - **Social Media Integration**: Links to my LinkedIn, GitHub, and email for easy connection.
 - **Performance Optimized**: Fast loading and responsive across all devices, ensuring a seamless experience.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**: React, TailwindCSS
 - **Backend**: EmailJS (for contact form integration)
 - **Icons**: React Icons for consistent, scalable vector graphics
 - **Hosting**: Deployed using Vercel
 
-## 📂 Structure
+## Structure
 
 The repository is organized into the following key sections:
 
@@ -26,7 +26,7 @@ The repository is organized into the following key sections:
 - **Projects Section**: A curated list of my top projects with descriptions, technologies used, and live links.
 - **Contact Section**: A functional contact form for easy communication, along with social media links.
 
-## 🎯 Purpose
+## Purpose
 
 This project is more than just a portfolio; it’s a representation of my technical abilities and personal brand. It serves as a platform to:
 
@@ -34,11 +34,11 @@ This project is more than just a portfolio; it’s a representation of my techni
 - Showcase my ability to build and design modern web applications.
 - Serve as a central hub for my projects, skills, and achievements.
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live version of the portfolio here: [https://ananthu.vercel.app/]
 
-## 🤝 Connect With Me
+## Connect With Me
 
 - **Email**: [ananthumohan368@gmail.com](mailto:ananthumohan368@gmail.com)
 - **LinkedIn**: [linkedin.com/in/ananthu-mohan](https://www.linkedin.com/in/ananthu-mohan/)
