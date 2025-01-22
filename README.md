@@ -15,7 +15,7 @@ Welcome to the repository for my **personal portfolio website**, a platform to s
 - **Frontend**: React, TailwindCSS
 - **Backend**: EmailJS (for contact form integration)
 - **Icons**: React Icons for consistent, scalable vector graphics
-- **Hosting**: Deployed using [Your Hosting Service, e.g., Vercel, Netlify, etc.]
+- **Hosting**: Deployed using Vercel
 
 ## 📂 Structure
 
@@ -36,7 +36,7 @@ This project is more than just a portfolio; it’s a representation of my techni
 
 ## 🌐 Live Demo
 
-Check out the live version of the portfolio here: [Insert Live URL]
+Check out the live version of the portfolio here: [https://ananthu.vercel.app/]
 
 ## 🤝 Connect With Me
 
