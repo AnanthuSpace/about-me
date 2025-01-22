@@ -56,7 +56,7 @@ const Technologies = () => {
       </h2>
       <Reveal>
         <div className="relative overflow-hidden pt-10">
-          <div className="animate-scroll z-1 flex">
+          <div className="z-1 flex animate-scroll">
             <div className="flex flex-nowrap">
               {[...techIcons, ...techIcons].map((icon, index) => (
                 <div

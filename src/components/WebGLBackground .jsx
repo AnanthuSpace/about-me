@@ -136,24 +136,17 @@ const WebGLBackground = () => {
       }
 
       vertices = [
-        -1.0,
-        -1.0,
-        1.0,
-        -1.0,
-        -1.0,
-        1.0,
-        -1.0,
-        1.0,
-        1.0,
-        -1.0,
-        1.0,
-        1.0,
+        -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0,
       ];
 
       buffer = gl.createBuffer();
 
       gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+      gl.bufferData(
+        gl.ARRAY_BUFFER,
+        new Float32Array(vertices),
+        gl.STATIC_DRAW,
+      );
 
       const position = gl.getAttribLocation(program, "position");
 
@@ -165,7 +158,7 @@ const WebGLBackground = () => {
     };
 
     const draw = (now) => {
-      gl.clearColor(0, 0, 0, 1.);
+      gl.clearColor(0, 0, 0, 1);
       gl.clear(gl.COLOR_BUFFER_BIT);
 
       gl.useProgram(program);

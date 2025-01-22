@@ -3,11 +3,13 @@ import Technologies from "./Technologies ";
 
 const About = () => {
   return (
-    <section id="about" className="mx-8 px-8">
+    <section id="about" className="mx-8 px-8 py-12">
       <div className="container mx-auto px-6">
-        <h2 className="mb-8 text-center text-3xl font-bold text-gray-800">
-          About Me
-        </h2>
+        <Reveal>
+          <h2 className="mb-8 text-center text-3xl font-bold text-gray-800">
+            About Me
+          </h2>
+        </Reveal>
         <Reveal>
           <div className="flex flex-col items-center md:flex-row">
             <div className="mb-6 flex w-full justify-center md:mb-0 md:w-1/3">
@@ -44,7 +46,6 @@ const About = () => {
         </Reveal>
       </div>
 
-      {/* Technologies Section */}
       <div className="mt-10 flex items-center justify-center">
         <div className="w-1/2">
           <Technologies />
