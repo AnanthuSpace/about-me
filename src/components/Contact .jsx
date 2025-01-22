@@ -109,7 +109,7 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="mt-12">
+        <div className="my-12">
           <h3 className="text-2xl font-semibold text-gray-800">
             Other Ways to Reach Me
           </h3>
@@ -119,7 +119,7 @@ const Contact = () => {
           <div className="mt-4 flex justify-center space-x-8">
             <a
               href="mailto:ananthumohan368@gmail.com"
-              className="text-xl text-blue-500 hover:text-blue-700"
+              className="text-xl text-gray-500 hover:text-gray-700"
             >
               <SiGmail />
             </a>
@@ -127,7 +127,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/ananthu-mohan/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl text-blue-500 hover:text-blue-700"
+              className="text-xl text-gray-500 hover:text-gray-700"
             >
               <FaLinkedin />
             </a>
@@ -135,7 +135,7 @@ const Contact = () => {
               href="https://github.com/AnanthuSpace"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl text-blue-500 hover:text-blue-700"
+              className="text-xl text-gray-500 hover:text-gray-700"
             >
               <FaGithub />
             </a>
