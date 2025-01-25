@@ -2,20 +2,12 @@ import Reveal from "../Animations/Reveal";
 
 const experiences = [
   {
-    role: "MERN Stack Developer",
-    company: "Applore Technologies",
-    duration: "Jan 2025 - Present",
-    location: "Noida, Uttar Pradesh, India · On-site",
-    description:
-      "Working as a MERN Stack Developer, contributing to the design and development of robust web applications using cutting-edge technologies.",
-  },
-  {
     role: "Full Stack Developer (Self-Employed)",
     company: "Brototype",
     duration: "Sep 2023 - Dec 2024",
     location: "Kochi, Kerala, India · On-site",
     description:
-      "Gained extensive experience in full-stack development, building user-friendly and scalable web applications while enhancing expertise in React, Node.js, and backend integrations.",
+      "Gained extensive experience in full-stack development by independently building live, production-ready web applications from scratch. Designed and implemented user-friendly and scalable solutions while enhancing expertise in React, Node.js, backend integrations, and database management. All skills were self-taught through hands-on learning and real-world project development.",
   },
   {
     role: "Diploma in Computer Science",
@@ -33,7 +25,7 @@ const Experience = () => {
       <div className="container mx-auto">
         <Reveal>
           <h2 className="mb-10 text-center text-3xl font-bold text-gray-800">
-            Experience
+            My journey
           </h2>
         </Reveal>
         <div className="relative border-l-4 border-gray-300">

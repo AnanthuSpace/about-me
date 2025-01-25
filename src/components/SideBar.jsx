@@ -24,7 +24,7 @@ const SideBar = () => {
         </a>
 
         <a
-          href="https://wa.me/8943365344"
+          href="https://wa.me/918943365344"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black-500 text-3xl transition hover:text-gray-400"
