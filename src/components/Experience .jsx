@@ -2,6 +2,14 @@ import Reveal from "../Animations/Reveal";
 
 const experiences = [
   {
+    role: "Freelance Full Stack Developer",
+    company: "Self-Employed",
+    duration: "Sep 2023 - Present",
+    location: "Remote",
+    description:
+      "Collaborated with early-stage startups to build and deliver full-stack web applications. Handled both frontend and backend development using technologies like React, Node.js, TypeScript, MongoDB, and AWS. Responsible for architecture planning, API integration, deployment, and maintaining production-ready codebases. This freelance experience enhanced problem-solving skills and client communication.",
+  },
+  {
     role: "Full Stack Developer (Self-Employed)",
     company: "Brototype",
     duration: "Sep 2023 - Dec 2024",
