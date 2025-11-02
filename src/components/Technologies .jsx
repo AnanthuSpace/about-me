@@ -20,8 +20,11 @@ import {
   SiTypescript,
   SiPostgresql,
   SiPm2,
+  SiNestjs,
+  SiMysql,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { GrDocker } from "react-icons/gr";
 import { DiNginx } from "react-icons/di";
 import Reveal from "../Animations/Reveal";
 
@@ -32,15 +35,18 @@ const Technologies = () => {
     { name: "JavaScript", Icon: FaJsSquare },
     { name: "TypeScript", Icon: SiTypescript },
     { name: "React", Icon: SiReact },
-    { name: "Node.js", Icon: FaNodeJs },
-    { name: "MongoDB", Icon: SiMongodb },
-    { name: "Git", Icon: SiGit },
     { name: "Next.js", Icon: SiNextdotjs },
+    { name: "Node.js", Icon: FaNodeJs },
+    { name: "Nest.js", Icon: SiNestjs },
+    { name: "MongoDB", Icon: SiMongodb },
+    { name: "MySQL", Icon: SiMysql },
+    { name: "PostgreSQL", Icon: SiPostgresql },
+    { name: "Git", Icon: SiGit },
+    { name: "Docker", Icon: GrDocker },
     { name: "NGINX", Icon: DiNginx },
     { name: "AWS", Icon: FaAws },
     { name: "PM2", Icon: SiPm2 },
     { name: "Postman", Icon: SiPostman },
-    { name: "PostgreSQL", Icon: SiPostgresql },
     { name: "Firebase", Icon: IoLogoFirebase },
     { name: "Figma", Icon: FaFigma },
     { name: "Tailwind", Icon: SiTailwindcss },

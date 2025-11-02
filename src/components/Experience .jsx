@@ -2,6 +2,22 @@ import Reveal from "../Animations/Reveal";
 
 const experiences = [
   {
+    role: "Full Stack Developer",
+    company: "Wisdom Tooth Technologies",
+    duration: "Oct 2025 - Present",
+    location: "Remote",
+    description:
+      "Building and maintaining full-stack web applications with a focus on performance, scalability, and clean architecture.",
+  },
+  {
+    role: "Backend Developer",
+    company: "Flyweis Technology",
+    duration: "Sep 2025 - Present",
+    location: "Remote",
+    description:
+      "Developing and managing backend systems, API integrations, and server-side logic for enterprise projects.",
+  },
+  {
     role: "Freelance Full Stack Developer",
     company: "Self-Employed",
     duration: "Sep 2023 - Present",
